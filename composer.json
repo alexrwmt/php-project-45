@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "description": "hexlet/code desc",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex R",
+            "email": "alex.r@wmt.digital"
+        }
+    ],
+    "require": {}
+}
