@@ -13,5 +13,8 @@
             "email": "alex.r@wmt.digital"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
 }
