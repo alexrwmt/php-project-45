@@ -1,9 +1,11 @@
 #!/usr/bin/env php
 
 <?php
-//require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-echo "welcome BrainGames\n";
-echo "what is your name?\n";
-$name = fgets(STDIN);
-echo "Hello, {$name}\n";
+use function cli\line;
+use function cli\prompt;
+
+line('welcome BrainGame');
+$name = prompt('your name? ');
+line('hello, %s', $name);
