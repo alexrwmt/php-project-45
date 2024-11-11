@@ -13,9 +13,7 @@
             "email": "alex.r@wmt.digital"
         }
     ],
-    "require": {
-        "wp-cli/php-cli-tools": "^0.12.1"
-    },
+    "require": {},
     "bin": [
         "bin/brain-games"
     ]
