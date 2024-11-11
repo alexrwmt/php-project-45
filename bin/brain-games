@@ -1,11 +1,1 @@
 #!/usr/bin/env php
-
-<?php
-require_once __DIR__ . '/../vendor/autoload.php';
-
-use function cli\line;
-use function cli\prompt;
-
-line('welcome BrainGame');
-$name = prompt('your name? ');
-line('hello, %s', $name);
