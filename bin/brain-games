@@ -9,3 +9,4 @@ use function cli\prompt;
 line('welcome BrainGame');
 $name = prompt('your name? ');
 line('hello, %s', $name);
+# upd 2
